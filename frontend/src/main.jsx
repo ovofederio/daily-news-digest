@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 
-const categories = ["politics", "sports", "pop culture", "art"];
+const categories = ["politics", "sports", "pop culture", "technology"];
 const emojiMap = {
   "politics": "🗳️",
   "sports": "🏀",
   "pop culture": "🎬",
-  "art": "🎨"
+  "technology": "🤖"
 };
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
